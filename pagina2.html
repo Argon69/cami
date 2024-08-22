@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Multimedia - Camili Media Center</title>
+    <style>
+        .content-section {
+            padding: 20px;
+        }
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .video-item {
+            flex: 1 1 calc(33.333% - 40px); /* 3 columnas, ajusta el ancho y el espacio */
+            box-sizing: border-box;
+        }
+        .video-item iframe {
+            width: 100%;
+            height: 200px; /* Ajusta la altura según sea necesario */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CAMILI MEDIA CENTER</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca-de.html">Acerca de</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-section">
+            <h2>Multimedia</h2>
+            <p>Explora nuestros videos destacados.</p>
+        </div>
+        <div class="content-section">
+            <div class="video-grid">
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=knrc4q1S_q0&t=26s" title="Video 1"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=0zkX6nlpiSk&t=858s" title="Video 2"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=RJNt0qJWLhY" title="Video 3"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=jI9q2KaXcCw" title="Video 4"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=5GuzFT28_HA" title="Video 5"></iframe>
+                </div>
+                <div class="video-item">
+                    <iframe src="https://www.youtube.com/watch?v=uYSqjUuOBmY" title="Video 6"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Camili Media Center. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
