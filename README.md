@@ -36,7 +36,3 @@ Este proyecto está licenciado bajo la Licencia de Libre Uso. Consulta el archiv
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras algún error o tienes sugerencias para mejorar el proyecto, por favor abre un issue o un pull request.
-
-## Contacto
-
-Para más información, puedes contactarme en Github
