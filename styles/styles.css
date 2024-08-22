@@ -162,3 +162,6 @@ button:hover {
     object-fit: cover;
     border-radius: 8px; /* Opcional: bordes redondeados */
 }
+.justificado {
+    text-align: justify;
+}
