@@ -191,3 +191,47 @@ button:hover {
 .social-media a:hover {
     text-decoration: underline;
 }
+.content-section {
+    padding: 20px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.contact-info h2 {
+    margin-top: 0;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+.social-media li {
+    margin-bottom: 10px;
+}
+.social-media a {
+    text-decoration: none;
+    color: #007bff;
+}
+.social-media a:hover {
+    text-decoration: underline;
+}
+.content-section {
+    padding: 20px;
+}
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.video-item {
+    flex: 1 1 calc(33.333% - 40px); /* 3 columnas, ajusta el ancho y el espacio */
+    box-sizing: border-box;
+}
+.video-item iframe {
+    width: 100%;
+    height: 200px; /* Ajusta la altura según sea necesario */
+    border: none;
+}
