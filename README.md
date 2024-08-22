@@ -14,7 +14,7 @@ Bienvenido a **Camili Media Center**, un proyecto de muestra para demostrar habi
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/Argon69/cami-mediacenter
+    git clone https://github.com/Argon69/cami
     ```
 
 2. Navega al directorio del proyecto:
